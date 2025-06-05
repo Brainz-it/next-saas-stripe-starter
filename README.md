@@ -65,6 +65,11 @@ pnpm run dev
 >
 > Use this command for update your project: `ncu -i --format group`
 
+## Triathlon Training Example
+This starter can be adapted for endurance sports such as triathlon.
+See [docs/triathlon-training](content/docs/triathlon-training.mdx) for a walkthrough of setting up workouts and user flows.
+
+
 ## Roadmap
 - [ ] Upgrade eslint to v9
 - [ ] Add resend for success subscriptions
