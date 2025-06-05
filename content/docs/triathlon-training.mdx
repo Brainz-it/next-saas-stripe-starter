@@ -1,0 +1,37 @@
+---
+title: Triathlon Training
+description: Setup and typical user flows for a triathlon training app.
+---
+
+This guide explains how you can adapt the **Next SaaS Stripe Starter** for a triathlon training service.
+
+## Setup
+
+<Steps>
+
+### Customize the Database
+
+Add models for athletes, workouts and training plans in your Prisma schema. After updating the schema, run:
+
+```bash
+npx prisma db push
+```
+
+### Create Training Plans
+
+Populate your database with sample workouts and weekly plans. You can provide free plans and premium plans unlocked through Stripe subscriptions.
+
+### Track Workouts
+
+Build pages where athletes can log workouts and view progress over time. The starter already includes authentication and a dashboard layout you can extend.
+
+</Steps>
+
+## Typical User Flows
+
+1. Athletes sign up or log in.
+2. They choose a training plan that matches their goals.
+3. Daily workouts are tracked in the dashboard.
+4. Upgrading a subscription unlocks advanced analytics and coaching features.
+
+This is just one example of how the starter can power a triathlon focused SaaS.
