@@ -2,50 +2,49 @@ import { FeatureLdg, InfoLdg, TestimonialType } from "types";
 
 export const infos: InfoLdg[] = [
   {
-    title: "Empower your projects",
+    title: "Reach your race goals",
     description:
-      "Unlock the full potential of your projects with our open-source SaaS platform. Collaborate seamlessly, innovate effortlessly, and scale limitlessly.",
+      "Build endurance and speed with training plans tailored for triathletes.",
     image: "/_static/illustrations/work-from-home.jpg",
     list: [
       {
-        title: "Collaborative",
-        description: "Work together with your team members in real-time.",
+        title: "Structured",
+        description: "Follow workouts designed for swim, bike and run.",
         icon: "laptop",
       },
       {
-        title: "Innovative",
-        description: "Stay ahead of the curve with access constant updates.",
+        title: "Progressive",
+        description: "Adapt your training as you improve.",
         icon: "settings",
       },
       {
-        title: "Scalable",
-        description:
-          "Our platform offers the scalability needed to adapt to your needs.",
+        title: "Flexible",
+        description: "Plans that fit into your busy schedule.",
         icon: "search",
       },
     ],
   },
   {
-    title: "Seamless Integration",
+    title: "Sync your devices",
     description:
-      "Integrate our open-source SaaS seamlessly into your existing workflows. Effortlessly connect with your favorite tools and services for a streamlined experience.",
+      "Connect your favorite trackers and apps to keep all your data in one place.",
     image: "/_static/illustrations/work-from-home.jpg",
     list: [
       {
-        title: "Flexible",
+        title: "Wearables",
         description:
-          "Customize your integrations to fit your unique requirements.",
+          "Import workouts from watches and bike computers.",
         icon: "laptop",
       },
       {
-        title: "Efficient",
-        description: "Streamline your processes and reducing manual effort.",
+        title: "Nutrition",
+        description: "Track calories and macros effortlessly.",
         icon: "search",
       },
       {
         title: "Reliable",
         description:
-          "Rely on our robust infrastructure and comprehensive documentation.",
+          "Your data is backed up and always available.",
         icon: "settings",
       },
     ],
@@ -54,44 +53,44 @@ export const infos: InfoLdg[] = [
 
 export const features: FeatureLdg[] = [
   {
-    title: "Feature 1",
+    title: "Personalized Workouts",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Get daily swim, bike and run sessions tailored to your goals.",
     link: "/",
     icon: "nextjs",
   },
   {
-    title: "Feature 2",
+    title: "Race Calendar",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Keep track of upcoming events and taper perfectly.",
     link: "/",
     icon: "google",
   },
   {
-    title: "Feature 3",
+    title: "Gear Tracker",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Monitor mileage on your bikes and shoes.",
     link: "/",
     icon: "gitHub",
   },
   {
-    title: "Feature 4",
+    title: "Nutrition Logs",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Record meals and monitor hydration.",
     link: "/",
     icon: "laptop",
   },
   {
-    title: "Feature 5",
+    title: "Community Challenges",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Join group challenges to stay motivated.",
     link: "/",
     icon: "user",
   },
   {
-    title: "Feature 6",
+    title: "Detailed Progress Charts",
     description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
+      "Visualize improvements across disciplines.",
     link: "/",
     icon: "copy",
   },
@@ -99,52 +98,24 @@ export const features: FeatureLdg[] = [
 
 export const testimonials: TestimonialType[] = [
   {
-    name: "John Doe",
-    job: "Full Stack Developer",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    name: "Alex Rider",
+    job: "Age-group Triathlete",
+    image: "https://randomuser.me/api/portraits/men/11.jpg",
     review:
-      "The next-saas-stripe-starter repo has truly revolutionized my development workflow. With its comprehensive features and seamless integration with Stripe, I've been able to build and deploy projects faster than ever before. The documentation is clear and concise, making it easy to navigate through the setup process. I highly recommend next-saas-stripe-starter to any developer.",
+      "Triathlon Trainer kept me accountable and improved my race times dramatically.",
   },
   {
-    name: "Alice Smith",
-    job: "UI/UX Designer",
-    image: "https://randomuser.me/api/portraits/women/2.jpg",
+    name: "Nina Perez",
+    job: "Coach",
+    image: "https://randomuser.me/api/portraits/women/12.jpg",
     review:
-      "Thanks to next-saas-stripe-starter, I've been able to create modern and attractive user interfaces in record time. The starter kit provides a solid foundation for building sleek and intuitive designs, allowing me to focus more on the creative aspects of my work.",
+      "My athletes love the structured plans and easy device syncing.",
   },
   {
-    name: "David Johnson",
-    job: "DevOps Engineer",
-    image: "https://randomuser.me/api/portraits/men/3.jpg",
+    name: "Mark Lee",
+    job: "Ironman Finisher",
+    image: "https://randomuser.me/api/portraits/men/13.jpg",
     review:
-      "Thanks to next-saas-stripe-starter, I was able to streamline the entire process and get payments up and running in no time. ",
-  },
-  {
-    name: "Michael Wilson",
-    job: "Project Manager",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-    review:
-      "I'm impressed by the quality of code and clear documentation of next-saas-stripe-starter. Kudos to the team!",
-  },
-  {
-    name: "Sophia Garcia",
-    job: "Data Analyst",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-    review:
-      "next-saas-stripe-starter provided me with the tools I needed to efficiently manage user data. Thank you so much!",
-  },
-  {
-    name: "Emily Brown",
-    job: "Marketing Manager",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-    review:
-      "next-saas-stripe-starter has been an invaluable asset in my role as a marketing manager. With its seamless integration with Stripe, I've been able to launch targeted marketing campaigns with built-in payment functionality, allowing us to monetize our products and services more effectively.",
-  },
-  {
-    name: "Jason Stan",
-    job: "Web Designer",
-    image: "https://randomuser.me/api/portraits/men/9.jpg",
-    review:
-      "Thanks to next-saas-stripe-starter, I've been able to create modern and attractive user interfaces in record time. The starter kit provides a solid foundation for building sleek and intuitive designs, allowing me to focus more on the creative aspects of my work.",
+      "The analytics and nutrition tracking helped me prepare for my first Ironman.",
   },
 ];
