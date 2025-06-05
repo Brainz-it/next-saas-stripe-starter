@@ -17,6 +17,7 @@
   <a href="#introduction"><strong>Introduction</strong></a> ·
   <a href="#installation"><strong>Installation</strong></a> ·
   <a href="#tech-stack--features"><strong>Tech Stack + Features</strong></a> ·
+  <a href="#running-tests"><strong>Running Tests</strong></a> ·
   <a href="#author"><strong>Author</strong></a> ·
   <a href="#credits"><strong>Credits</strong></a>
 </p>
@@ -60,7 +61,15 @@ cp .env.example .env.local
 pnpm run dev
 ```
 
-> [!NOTE]  
+## Running Tests
+
+Execute the test suite with:
+
+```sh
+pnpm test
+```
+
+> [!NOTE]
 > I use [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) package for update this project.
 >
 > Use this command for update your project: `ncu -i --format group`
