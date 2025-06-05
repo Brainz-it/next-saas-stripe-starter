@@ -61,6 +61,15 @@ cp .env.example .env.local
 pnpm run dev
 ```
 
+Alternatively, you can bootstrap everything in one go:
+
+```sh
+pnpm run local
+```
+
+This command installs dependencies, copies `.env.example` to `.env.local` if it
+doesn't already exist, and starts the development server.
+
 ## Running Tests
 
 Execute the test suite with:
